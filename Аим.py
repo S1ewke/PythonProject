@@ -67,7 +67,7 @@ while running:
 
     pygame.display.flip()
 
-if score > best_score:
+if score > best_score:   #1
     best_score = score
 
 with open("Records.txt", "w") as f:
